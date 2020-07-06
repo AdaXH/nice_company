@@ -1,0 +1,8 @@
+{
+  "extends": ["eslint-config-umi", "prettier"],
+  "rules": {
+    "quotes": "off",
+    "semi": 1,
+    "no-unused-vars": "error"
+  }
+}
