@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently 'nodemon -i ./web/ koa.js NODE_ENV=development' 'cd web/pc && npm run dev'",
-    "lint-client": "cd pc && eslint --ext .js src test"
+    "lint-client": "cd pc && eslint --ext .js src test",
+    "build-pc": "cd web/pc && npm run build && mv dist/*.* ../../public/pc"
   },
   "author": "Ada,xinyu",
   "license": "ISC",
