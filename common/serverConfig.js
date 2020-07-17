@@ -4,7 +4,7 @@ module.exports = {
   },
   production: {
     // 线上的mongodb链接
-    host: 'mongodb://root:xxxxxx@koeabpwkfrbs.mongodb.sae.sina.com.cn:10297',
+    host: 'xxxx',
   },
   port: 5050,
 }
