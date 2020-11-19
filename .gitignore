@@ -18,3 +18,4 @@
 .umi-production
 /common/serverConfig.js
 web/pc/node_modules
+web/pc/dist
